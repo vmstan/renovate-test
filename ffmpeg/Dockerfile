@@ -30,7 +30,7 @@ RUN apt-get install -y --no-install-recommends \
     libx265-dev \
   ;
 
-# renovate: datasource=repology depName=ffmpeg packageName=pkgsrc_current/ffmpeg
+# renovate: datasource=repology depName=ffmpeg packageName=openpkg_current/ffmpeg
 ARG FFMPEG_VERSION=7.0
 ARG FFMPEG_URL=https://ffmpeg.org/releases
 
