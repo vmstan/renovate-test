@@ -31,7 +31,7 @@ RUN apt-get install -y --no-install-recommends \
   ;
 
 # renovate: datasource=repology depName=ffmpeg packageName=openpkg_current/ffmpeg
-ARG FFMPEG_VERSION=7.0.0
+ARG FFMPEG_VERSION=7.0.1
 ARG FFMPEG_URL=https://ffmpeg.org/releases
 
 WORKDIR /usr/local/src
