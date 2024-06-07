@@ -31,7 +31,7 @@ RUN \
   ;
 
 # renovate: datasource=github-releases depName=libvips packageName=libvips/libvips
-ARG VIPS_VERSION=8.15.0
+ARG VIPS_VERSION=8.15.2
 ARG VIPS_URL=https://github.com/libvips/libvips/releases/download
 
 WORKDIR /usr/local/src
