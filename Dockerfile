@@ -30,6 +30,7 @@ RUN \
   liborc-dev \
   ;
 
+# renovate: datasource=github-releases depName=libvips packageName=libvips/libvips
 ARG VIPS_VERSION=8.15.0
 ARG VIPS_SHA256=a2ab15946776ca7721d11cae3215f20f1f097b370ff580cd44fc0f19387aee84
 ARG VIPS_URL=https://github.com/libvips/libvips/releases/download
