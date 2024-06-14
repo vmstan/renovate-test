@@ -1,4 +1,4 @@
-FROM ruby:3.3.2-slim-bookworm as build
+FROM ruby:3.3.3-slim-bookworm as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -107,7 +107,7 @@ RUN \
   make -j$(nproc); \
   make install;
 
-FROM ruby:3.3.2-slim-bookworm as ffmpeg
+FROM ruby:3.3.3-slim-bookworm as ffmpeg
 
 ENV DEBIAN_FRONTEND=noninteractive
 

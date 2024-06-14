@@ -1,4 +1,4 @@
-FROM ruby:3.3.2-slim-bookworm as build
+FROM ruby:3.3.3-slim-bookworm as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -45,7 +45,7 @@ RUN \
   ninja; \
   ninja install;
 
-FROM ruby:3.3.2-slim-bookworm as vips
+FROM ruby:3.3.3-slim-bookworm as vips
 
 ENV DEBIAN_FRONTEND=noninteractive
 
